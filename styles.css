@@ -1,0 +1,48 @@
+/* 기본 선택자 */
+
+/* div {
+  background-color: rgba(137, 180, 230, 0.934);
+  color:white;
+} */
+
+#text-red {
+  color:red
+}
+
+li.text-large {
+  font-size: 3dvh;
+}
+
+/* 결합 선택자 */
+/* 1. 공백: 하위 태그 */
+div img {
+  width: 400px;
+}
+/* 2.>: 자식(직계) 태그 */
+
+div > a {
+  color:crimson;
+}
+
+/* 3.+: and 인접형제 1개만 태그 */
+/* div p + a {
+  background-color: rgb(108, 117, 126);
+} */
+
+/* 3.~: and 이후형제 전체 태그 */
+div p ~ a {
+  background-color: pink;
+}
+
+/* 가상 선택자 */
+.btn {
+  background-color: green;
+  color: white;
+  border: none;
+}
+/* 마우스 오버됐을때 */
+.btn:hover {
+  background-color: blue;
+  border-radius: 12px;
+  cursor: pointer;
+}

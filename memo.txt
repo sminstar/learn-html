@@ -20,3 +20,14 @@ tailwindCss inteligence
 git add .
 git commit -m "커밋내용"
 git push
+
+2. 스타일 종류
+1) 인라인 스타일
+2) 내부스타일 시트
+3) 외부스타일 시트
+
+3. 결합자
+선택자 공백
+선택자 >
+선택자 +
+선택자 - 

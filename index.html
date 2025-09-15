@@ -4,23 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>smin 개인페이지</title>
+    <!-- 외부스타일 시트 -->
+    <link rel="stylesheet" href="styles.css">    
+    <!-- 내부스타일 시트 -->
+    <style>
+      strong {
+        background-color: aqua;
+      }       
+    </style>
   </head>
   <body>
     
     Hello world
+    <button type="button" class="btn">버튼</button>
     <p>p태그입니다</p>
-    <strong>strong태그입니다</strong>
+    <strong id="text-red">strong태그입니다</strong>
     <br>
     <strong>strong태그입니다</strong>
-    <div style="border: 3px solid blue;">
+    <div style="border: 3px solid blue;">      
       <p>img태그 영역
         <br>
         <img src="//i.namu.wiki/i/cADiBns3VWyi8pUQVUCS5vhZ9zxV5Ywv5qJemTCP_nUehiHj2L5XYjBZFLG3lgaol5LP4FfIgUGCNnNppL_cqrkQewIar6OJ_VFOIlDBakXvT2y6Jgk-p_9chYBq5Q3XXWYAi5nci5GYGVRMdi5fdw.webp"
-        alt="케데헌 이미지"
-        width="300">
+        alt="케데헌 이미지">
+        <br>                
       </p>
+      <a href="https://www.naver.com" target="_blank">네이버로 이동1</a>      
       <br>
-      <a href="https://www.naver.com" target="_blank">네이버로 이동</a>
+      <a href="https://www.naver.com" target="_blank">네이버로 이동2</a>
+      <br>
+      <span>
+        <a href="">Test!!!</a>
+      </span>
     </div>
     <!-- 제목태그 -->
     <h1><span style="color:red">제목</span>입니다</h1>
@@ -34,9 +48,9 @@
     <h3>우리 강의에서 다루는 언어</h3>
     <!-- 순서가 없는 리스트 태그 -->
     <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>Javascript</li>
+      <li class="text-large">HTML</li>
+      <li class="text-large">CSS</li>
+      <li class="text-large">Javascript</li>
     </ul>
     <!-- 순서가 있는 리스트 태그 -->  
     <ol>
@@ -45,7 +59,7 @@
     </ol>
     <!-- Form 요소들 -->
     <form action="">
-      <label for="user-id">ID</label>
+      <label for="user-id" class="text-large">ID</label>
       <br>
       <input type="text" name="user-id" id="user-id" value="" placeholder="ID를 입력해주세요" required>
       <br>
