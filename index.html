@@ -1,11 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>smin 개인페이지</title>
-</head>
-<body>
-  Hello world2233
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>smin 개인페이지</title>
+  </head>
+  <body>
+    
+    Hello world
+    <p>p태그입니다</p>
+    <strong>strong태그입니다</strong>
+    <br>
+    <strong>strong태그입니다</strong>
+    <div style="border: 3px solid blue;">
+      <p>img태그 영역
+        <br>
+        <img src="//i.namu.wiki/i/cADiBns3VWyi8pUQVUCS5vhZ9zxV5Ywv5qJemTCP_nUehiHj2L5XYjBZFLG3lgaol5LP4FfIgUGCNnNppL_cqrkQewIar6OJ_VFOIlDBakXvT2y6Jgk-p_9chYBq5Q3XXWYAi5nci5GYGVRMdi5fdw.webp"
+        alt="케데헌 이미지"
+        width="300">
+      </p>
+      <br>
+      <a href="https://www.naver.com" target="_blank">네이버로 이동</a>
+    </div>
+    <!-- 제목태그 -->
+    <h1><span style="color:red">제목</span>입니다</h1>
+    <h2>제목입니다</h2>
+    <h3>제목입니다</h3>
+    <hr>
+    <!-- 수평선 태그 -->
+    <h4>제목입니다</h4>
+    <h5>제목입니다</h5>
+    <h6>제목입니다</h6>    
+    <h3>우리 강의에서 다루는 언어</h3>
+    <!-- 순서가 없는 리스트 태그 -->
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Javascript</li>
+    </ul>
+    <!-- 순서가 있는 리스트 태그 -->  
+    <ol>
+      <li>첫번째 아이템</li>
+      <li>두번째 아이템</li>
+    </ol>
+    <!-- Form 요소들 -->
+    <form action="">
+      <label for="user-id">ID</label>
+      <br>
+      <input type="text" name="user-id" id="user-id" value="" placeholder="ID를 입력해주세요" required>
+      <br>
+      <!-- 미션: 패스워드 입력영역 만들기 -->
+      <label for="password">Password</label>      
+      <br>
+      <input type="password" name="password" id="password" value="" placeholder="패스워드를 입력해주세요"  required>
+      <br>
+      <br>
+      <!-- 제출버튼을 만드는 두가지 방법 -->
+      <!-- <input type="submit" value="로그인1"> -->      
+      <button type="submit">로그인</button>
+    </form>
+    <form action="">
+      <input action="">
+      <p>음식 선택</p>
+      <input type="checkbox" name="food" value="chicken">치킨
+      <input type="checkbox" name="food" value="pizza">피자
+      <input type="checkbox" name="food" value="gimbab">김밥
+      <input type="checkbox" name="food" value="hamberger">햄버거
+
+      <!-- 한개만 선택 가능 -->
+      <p>성별 선택</p>
+      
+      <input type="radio" name="gender" value="male" id="male">
+      <label for="male">남성</label>
+      <!-- 미션: label 태그로 텍스트 묶어주기 -->
+      <input type="radio" name="gender" value="female" id="female">
+      <label for="female">여성</label>
+
+      <br>
+      <br>
+      <input type="submit" value="제출하기">
+    </form>
+    <br>
+    <br>
 </body>
 </html>
